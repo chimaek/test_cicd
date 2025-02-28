@@ -19,7 +19,7 @@ jobs:
     - name: Python 설정하기
       uses: actions/setup-python@v2
       with:
-        python-version: '3.9'
+        python-version: '3.12'
 
     # 3. 패키지 설치
     - name: 패키지 설치하기
