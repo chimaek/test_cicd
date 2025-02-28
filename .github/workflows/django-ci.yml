@@ -38,7 +38,7 @@ jobs:
     cd:
         runs-on: ubuntu-latest
         if: github.ref == 'refs/heads/main'
-
+        # 1
         steps:
         - name: 코드 체크아웃
           uses: actions/checkout@v4
